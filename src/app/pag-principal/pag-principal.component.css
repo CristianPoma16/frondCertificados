@@ -1,46 +1,60 @@
-#barra{
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #fff, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#barra {
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2980B9, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #fff, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 200px;
 }
 
+.image {
+    margin-top: 2%;
+    margin-left: 175px;
+}
 
-.main-section{
-    margin:0 auto;
-    margin-top:0%;
+
+/*ESPACIADO DEL FORM PRINCIPAL*/
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 6%;
     padding: 0;
 }
 
-.modal-content{
+.modal-content {
     background-color: #3b4652;
     opacity: .85;
     box-shadow: px 0px 3px #848484;
 }
 
 
-.form-group input{
+/*TEXTO DEL INPUT*/
+
+.form-group input {
     height: 45px;
     font-size: 22px;
-    padding-left: 400px;
+    padding-left: 230px;
     border-radius: 500px;
-    border-color:black;
+    border-color: black;
 }
 
-.form-group::before{
+
+/*IMAGEN DE USUARIO*/
+
+.form-group::before {
     font-family: "Font Awesome\ 5 Free";
     position: absolute;
-    left: 8px;
+    left: 38px;
     font-size: 22px;
-    padding-top:8px;
+    padding-top: 8px;
 }
 
-.form-group#user-group::before{
+.form-group#user-group::before {
     content: "\f007";
 }
 
-
-.boton{
+.boton {
     width: 500px;
     margin: 25px 0 25px;
     font-size: 25px;
